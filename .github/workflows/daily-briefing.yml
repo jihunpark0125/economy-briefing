@@ -60,7 +60,7 @@ jobs:
           fi
 
       - name: GitHub Pages 설정
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: 정적 페이지 업로드
         uses: actions/upload-pages-artifact@v4
